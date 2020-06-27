@@ -1,0 +1,47 @@
+body {
+  box-sizing: border-box;
+}
+#main {
+  margin: 0px auto;
+}
+
+#comments,
+#animelist {
+  margin: 10px;
+  padding: 20px;
+}
+.col-2 {
+  max-width: 300px;
+  margin: auto auto;
+}
+
+header {
+  text-align: center;
+  margin: 50px;
+}
+
+.stats,
+.desc {
+  margin-top: 5px;
+}
+
+div.img-anime {
+  margin-bottom: 10px;
+  border: none;
+  width: auto;
+}
+
+.desc {
+  border: none;
+}
+
+.stats {
+}
+.stats ul {
+  position: absolute;
+  top: 10;
+}
+.desc h3,
+.stats h3 {
+  border-bottom: solid;
+}
