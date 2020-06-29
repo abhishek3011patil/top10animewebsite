@@ -50,14 +50,14 @@ window.addEventListener("DOMContentLoaded", () => {
       <div class="stats col-xl-4 col-lg-5">
           <h3>Information</h3>
           <br>
-          <ul>
-          <li>Rating:${item.imdbRating} </li>
-          <li>season: ${item.totalSeasons}</li>
-          <li>year: ${item.Year} </li>
-          <li>genre: ${item.Genre}</li>
-          <li>release: ${item.Released} </li>
-          <li>duration ${item.duration}</li>
-      </ul></div>
+          
+          <p>Rating:     ${item.imdbRating} </p>
+          <p>Season:     ${item.totalSeasons}</p>
+          <p>Year:       ${item.Year} </p>
+          <p>Genre:      ${item.Genre}</p>
+          <p>Release:    ${item.Released} </p>
+          <p>Duration:   ${item.duration}</p>
+      </div>
       <div class="desc col-xl-8 col-lg-12">
           <h3>Description</h1>
         <p>
